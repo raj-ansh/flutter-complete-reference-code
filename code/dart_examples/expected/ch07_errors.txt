@@ -1,0 +1,13 @@
+withdrew 20.0
+checked 20.0
+cannot withdraw: 400.0 short
+checked 500.0
+bad call: must be positive
+checked -1.0
+logging a FormatException
+has a stack trace: true
+outer handler got the same exception
+caught a String
+empty list: No element
+true false
+false true

@@ -1,0 +1,16 @@
+style              size  weight
+displayLarge        57   w400
+displayMedium       45   w400
+displaySmall        36   w400
+headlineLarge       32   w400
+headlineMedium      28   w400
+headlineSmall       24   w400
+titleLarge          22   w400
+titleMedium         16   w500
+titleSmall          14   w500
+bodyLarge           16   w400
+bodyMedium          14   w400
+bodySmall           12   w400
+labelLarge          14   w500
+labelMedium         12   w500
+labelSmall          11   w500

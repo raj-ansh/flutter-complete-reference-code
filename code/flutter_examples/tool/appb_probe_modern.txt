@@ -1,0 +1,56 @@
+// This file is NOT compiled as part of the project. It is copied to
+// test/appb_probe2.dart, analyzed with `flutter analyze test/appb_probe2.dart`,
+// and deleted again. Each line R01..R39 uses the modern replacement for the
+// legacy line L01..L39 of appb_probe.txt; the analyzer reported no issues.
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_test/flutter_test.dart';
+
+void probe(BuildContext context) {
+  final theme = Theme.of(context);
+  ElevatedButton(onPressed: () {}, child: const Text('x')); // R01
+  TextButton(onPressed: () {}, child: const Text('x')); // R02
+  OutlinedButton(onPressed: () {}, child: const Text('x')); // R03
+  ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('x'))); // R04
+  BottomNavigationBarItem(label: 'x', icon: const Icon(Icons.home)); // R05
+  PopScope(canPop: true, child: const SizedBox()); // R06
+  OverflowBar(children: const []); // R07
+  RadioGroup<int>(groupValue: 1, onChanged: (_) {}, child: const Radio<int>(value: 1)); // R08
+  DropdownButtonFormField<int>(initialValue: 1, items: const [], onChanged: (_) {}); // R09
+  const Scaffold(resizeToAvoidBottomInset: false); // R10
+  const InputDecoration(floatingLabelBehavior: FloatingLabelBehavior.auto); // R11
+  AppBar(systemOverlayStyle: SystemUiOverlayStyle.dark); // R12
+  AppBar(titleTextStyle: theme.textTheme.titleLarge); // R13
+  TextField(maxLengthEnforcement: MaxLengthEnforcement.enforced); // R14
+  theme.textTheme.displayLarge; // R15
+  theme.textTheme.displayMedium; // R16
+  theme.textTheme.displaySmall; // R17
+  theme.textTheme.headlineMedium; // R18
+  theme.textTheme.headlineSmall; // R19
+  theme.textTheme.titleLarge; // R20
+  theme.textTheme.titleMedium; // R21
+  theme.textTheme.titleSmall; // R22
+  theme.textTheme.bodyLarge; // R23
+  theme.textTheme.bodyMedium; // R24
+  theme.textTheme.bodySmall; // R25
+  theme.textTheme.labelLarge; // R26
+  theme.textTheme.labelSmall; // R27
+  theme.colorScheme.secondary; // R28
+  FilledButton(onPressed: () {}, child: const Text('x')); // R29
+  theme.colorScheme.surface; // R30
+  theme.colorScheme.onSurface; // R31
+  theme.colorScheme.surfaceContainerHighest; // R32
+  ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal)); // R33
+  Colors.red.toARGB32(); // R34
+  Colors.red.r; // R35
+  Colors.red.withValues(alpha: 0.5); // R36
+  MediaQuery.textScalerOf(context); // R37
+  final list = <int>[]; // R38
+  list.length;
+}
+
+void main() {
+  testWidgets('modern test API', (tester) async {
+    tester.view.physicalSize = const Size(100, 100); // R39
+  });
+}

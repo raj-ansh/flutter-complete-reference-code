@@ -1,0 +1,1 @@
+Golden "goldens/score_card.png": Pixel test failed, 1.45%, 6982px diff detected.

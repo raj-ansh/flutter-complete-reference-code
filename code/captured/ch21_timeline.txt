@@ -1,0 +1,6 @@
+both clients connect, then A sends "  Hello, Relay!  ":
+  A: Connected
+  B: Connected
+  A: MessageReceived("Hello, Relay!")
+  B: MessageReceived("Hello, Relay!")
+  A: send() returned Sent(id: 1)

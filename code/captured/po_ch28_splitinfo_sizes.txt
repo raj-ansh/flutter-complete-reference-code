@@ -1,0 +1,7 @@
+Pocket Organizer, flutter build apk --release --split-per-abi (bytes)
+
+                          without               with
+                          --split-debug-info    --split-debug-info    saved
+app-armeabi-v7a-release   16,475,215            15,311,951            1,163,264
+app-arm64-v8a-release     19,050,115            18,132,611              917,504
+app-x86_64-release        20,533,887            19,616,383              917,504

@@ -1,0 +1,11 @@
+3
+null
+null
+no nickname
+Countess
+8
+No input
+Caught: Null check operator used on a null value
+before use
+loading config...
+config-v1

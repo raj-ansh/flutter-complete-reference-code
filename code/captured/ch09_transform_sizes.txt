@@ -1,0 +1,6 @@
+Each widget wraps the same 100 x 40 box.
+
+Transform.rotate(angle: 0.5)   layout size Size(100.0, 40.0)
+RotatedBox(quarterTurns: 1)    layout size Size(40.0, 100.0)
+Opacity(opacity: 0.5)          layout size Size(100.0, 40.0)
+ClipRRect(radius 20)           layout size Size(100.0, 40.0)

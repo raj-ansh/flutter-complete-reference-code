@@ -1,0 +1,4 @@
+Compiling lib\main.dart for the Web...                             98.3s
+√ Built build\web
+Running Gradle task 'assembleDebug'...                            349.5s
+√ Built build\app\outputs\flutter-apk\app-debug.apk

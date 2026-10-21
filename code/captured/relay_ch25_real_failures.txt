@@ -1,0 +1,5 @@
+sign up with a taken name         conflict: That username is taken.
+sign up with a short password     invalid: password must be at least 10 characters
+sign in, wrong password           unauthorized: Wrong username or password.
+sign in, no such user             unauthorized: Wrong username or password.
+server not running (port 1)       network: Could not reach the server.

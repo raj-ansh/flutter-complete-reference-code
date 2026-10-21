@@ -1,0 +1,9 @@
+Serving the --wasm build with "python -m http.server" (no special configuration), Chrome's console reported:
+
+Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of "text/plain". Strict MIME type checking is enforced for module scripts per HTML spec.   (main.dart.mjs)
+
+Flutter Web: Skwasm uses multi-threading and web workers for better performance, but your page needs to be cross-origin isolated to support multi-threading. Skwasm will run in single-threaded mode.
+
+Uncaught (in promise) TypeError: Failed to fetch dynamically imported module: http://localhost:8102/main.dart.mjs
+
+Result: a blank page. With tool/serve.py (serves .mjs as JavaScript and sends the two cross-origin isolation headers), the same files ran and the page showed "Compiled to WebAssembly: true".

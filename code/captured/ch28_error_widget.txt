@@ -1,0 +1,2 @@
+reporter received:  flutter: Bad state: this widget cannot be built
+screen shows:       "Something went wrong on this screen." (instead of the red error screen)

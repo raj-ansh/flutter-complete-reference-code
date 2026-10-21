@@ -1,0 +1,2 @@
+info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\const_demo.dart:8:12 - prefer_const_constructors
+info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\const_demo.dart:8:30 - prefer_const_constructors

@@ -1,0 +1,23 @@
+A
+C
+F
+3.14159
+6.0
+Null: nothing
+int: zero
+int: negative int
+int: positive int
+String: empty string
+String: string of 5
+List<dynamic>: empty list
+List<int>: list with one item: 1
+List<int>: list from 1 to 3
+_Map<String, String>: map of type user
+(int, int): pair summing to 7
+double: something else
+60
+Ada is 36
+left/right
+matched 1 and two
+ada scored 90 (A)
+alan scored 75 (C)

@@ -1,0 +1,4 @@
+this computer: UTC offset 5:30:00.000000
+which calendar day does each local time fall on, as stored (UTC) and as shown (local)?
+  local 2026-10-20 01:00:00.000 -> UTC day 2026-10-19, local day 2026-10-20
+  local 2026-10-20 23:30:00.000 -> UTC day 2026-10-20, local day 2026-10-20

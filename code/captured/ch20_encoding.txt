@@ -1,0 +1,4 @@
+Content-Type: text/plain
+response.body  says:                  GÃ¤nseblÃ¼mchen
+utf8.decode(response.bodyBytes) says: Gänseblümchen
+PlantApi (decodes the bytes) says:    Gänseblümchen

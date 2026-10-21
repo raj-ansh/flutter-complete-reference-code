@@ -1,0 +1,6 @@
+Direction.north Size(0.0 x 0.0) Size(4.0 x 4.0) Size(2.0 x 3.0)
+facing south
+true
+[Direction.north, Direction.south]
+Size(10.0 x 10.0)
+Direction.south

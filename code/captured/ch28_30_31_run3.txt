@@ -1,0 +1,57 @@
+00:00 +0: loading E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/error_reporting_test.dart
+00:00 +0: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/rebuilds_test.dart: setState high in the tree rebuilds the panels; splitting avoids it
+00:00 +1: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/rebuilds_test.dart: setState high in the tree rebuilds the panels; splitting avoids it
+00:00 +2: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/rebuilds_test.dart: setState high in the tree rebuilds the panels; splitting avoids it
+00:00 +3: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/rebuilds_test.dart: setState high in the tree rebuilds the panels; splitting avoids it
+00:00 +4: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/rebuilds_test.dart: setState high in the tree rebuilds the panels; splitting avoids it
+00:00 +5: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/rebuilds_test.dart: setState high in the tree rebuilds the panels; splitting avoids it
+00:00 +6: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/rebuilds_test.dart: setState high in the tree rebuilds the panels; splitting avoids it
+00:00 +7: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/rebuilds_test.dart: setState high in the tree rebuilds the panels; splitting avoids it
+00:00 +8: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/rebuilds_test.dart: setState high in the tree rebuilds the panels; splitting avoids it
+00:01 +9: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/rebuilds_test.dart: setState high in the tree rebuilds the panels; splitting avoids it
+00:01 +10: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/error_reporting_test.dart: a bug in build is reported and replaced by a friendly widget
+00:01 +11: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/error_reporting_test.dart: a bug in build is reported and replaced by a friendly widget
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: no matching candidates
+  Actual: _TypeWidgetFinder:<Found 1 widget with type "BrokenWidget": [
+            BrokenWidget,
+          ]>
+   Which: means one was found but none were expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/error_reporting_test.dart:25:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/error_reporting_test.dart line 25
+The test description was:
+  a bug in build is reported and replaced by a friendly widget
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +11 -1: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch31/accessible_test.dart: the rating bar tells a screen reader its label, value and actions
+00:01 +11 -1: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/error_reporting_test.dart: a bug in build is reported and replaced by a friendly widget [E]
+  Test failed. See exception logs above.
+  The test description was: a bug in build is reported and replaced by a friendly widget
+  
+00:01 +12 -1: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch31/accessible_test.dart: the rating bar tells a screen reader its label, value and actions
+00:01 +13 -1: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch31/accessible_test.dart: the rating bar tells a screen reader its label, value and actions
+00:02 +14 -1: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch31/adaptive_test.dart: a phone-width window gets a bottom bar
+00:02 +15 -1: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch31/adaptive_test.dart: a phone-width window gets a bottom bar
+00:02 +16 -1: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch31/adaptive_test.dart: a phone-width window gets a bottom bar
+00:02 +17 -1: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch31/adaptive_test.dart: a phone-width window gets a bottom bar
+00:02 +18 -1: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch31/keyboard_test.dart: Ctrl+N adds an item and Delete removes the last one
+00:02 +19 -1: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch31/keyboard_test.dart: Ctrl+N adds an item and Delete removes the last one
+00:02 +20 -1: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch31/keyboard_test.dart: Ctrl+N adds an item and Delete removes the last one
+00:03 +21 -1: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch31/keyboard_test.dart: Ctrl+N adds an item and Delete removes the last one
+00:03 +22 -1: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch31/keyboard_test.dart: Ctrl+N adds an item and Delete removes the last one
+00:03 +23 -1: Some tests failed.
+
+Failing tests:
+  E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/error_reporting_test.dart: a bug in build is reported and replaced by a friendly widget
+exit=1

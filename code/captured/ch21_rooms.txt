@@ -1,0 +1,6 @@
+alice joins "garden":           {ok: true}
+bob joins "garden":             {ok: true}
+carol joins "Not Valid!":       {ok: false, error: invalid room name}
+carol (not a member) sends:     {ok: false, error: not in that room, or empty text}
+alice (member) sends:           {ok: true}
+who received the room message:  alice heard "water the basil"; bob heard "water the basil"

@@ -1,0 +1,20 @@
+== app-armeabi-v7a-release.apk
+package: name='dev.example.pocket_organizer' versionCode='1001' versionName='1.0.0' compileSdkVersion='36'
+minSdkVersion:'24'
+targetSdkVersion:'36'
+native-code: 'armeabi-v7a'
+== app-arm64-v8a-release.apk
+package: name='dev.example.pocket_organizer' versionCode='2001' versionName='1.0.0' compileSdkVersion='36'
+minSdkVersion:'24'
+targetSdkVersion:'36'
+native-code: 'arm64-v8a'
+== app-x86_64-release.apk
+package: name='dev.example.pocket_organizer' versionCode='4001' versionName='1.0.0' compileSdkVersion='36'
+minSdkVersion:'24'
+targetSdkVersion:'36'
+native-code: 'x86_64'
+== app-release.apk
+package: name='dev.example.pocket_organizer' versionCode='1' versionName='1.0.0' compileSdkVersion='36'
+minSdkVersion:'24'
+targetSdkVersion:'36'
+native-code: 'arm64-v8a' 'armeabi-v7a' 'x86_64'

@@ -1,0 +1,12 @@
+200 with valid JSON               ApiOk(2 plants)
+401 Unauthorized                  Unauthorized retryable=false
+404 Not Found                     NotFound retryable=false
+503 Service Unavailable           ServerFailure(503) retryable=true
+no answer within 300 ms           RequestTimeout retryable=true
+JSON cut off in the middle        BadResponse retryable=false
+      detail: Unexpected end of input
+field of the wrong type           BadResponse retryable=false
+      detail: Plant has missing or wrongly typed fields: id: String, name: String, light: String
+an object instead of an array     BadResponse retryable=false
+      detail: Expected a JSON array
+connection refused                NoConnection retryable=true

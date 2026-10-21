@@ -1,0 +1,2 @@
+00:00 +0: Counter increments smoke test
+00:01 +1: All tests passed!

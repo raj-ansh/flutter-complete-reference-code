@@ -1,0 +1,45 @@
+Launching lib\main.dart on Web Server in debug mode...
+Waiting for connection from debug service on Web Server...         49.2s
+lib\main.dart is being served at http://localhost:8099
+The web-server device requires the Dart Debug Chrome extension for debugging. Consider using the Chrome or Edge devices for an improved development workflow.
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+v Open Flutter DevTools.
+w Dump widget hierarchy to the console.                                               (debugDumpApp)
+t Dump rendering tree to the console.                                          (debugDumpRenderTree)
+L Dump layer tree to the console.                                               (debugDumpLayerTree)
+f Dump focus tree to the console.                                               (debugDumpFocusTree)
+S Dump accessibility tree in traversal order.                                   (debugDumpSemantics)
+U Dump accessibility tree in inverse hit test order.                            (debugDumpSemantics)
+i Toggle widget inspector.                                  (WidgetsApp.showWidgetInspectorOverride)
+p Toggle the display of construction lines.                                  (debugPaintSizeEnabled)
+I Toggle oversized image inversion.                                     (debugInvertOversizedImages)
+o Simulate different operating systems.                                      (defaultTargetPlatform)
+b Toggle platform brightness (dark and light mode).                        (debugBrightnessOverride)
+P Toggle performance overlay.                                    (WidgetsApp.showPerformanceOverlay)
+a Toggle timeline events for all widget build methods.                    (debugProfileWidgetBuilds)
+g Run source code generators.
+h Repeat this help message.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+
+Performing hot reload...                                         1,263ms
+Recompile complete. No client connected.
+
+Performing hot restart...                                          349ms
+Recompile complete. No client connected.
+
+Application finished.

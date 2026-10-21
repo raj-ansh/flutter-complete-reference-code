@@ -1,0 +1,3 @@
+what each person sees in the room:
+  alice: #1 alice: "Is the basil watered?"   #2 bob: "Yes, this morning."
+  bob: #1 alice: "Is the basil watered?"   #2 bob: "Yes, this morning."

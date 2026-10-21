@@ -1,0 +1,5 @@
+1: main starts
+2: main ends
+3: microtask
+4: microtask created by Future
+5: event-queue task

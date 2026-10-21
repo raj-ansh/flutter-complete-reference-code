@@ -1,0 +1,9 @@
+got user-1
+failed: id must not be negative
+cleanup runs either way
+then: user-2
+[user-1, user-2, user-3]
+sequential took at least 300 ms: true
+parallel was faster: true
+timed out
+42

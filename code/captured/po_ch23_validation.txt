@@ -1,0 +1,17 @@
+name   "null"                Enter a name
+name   ""                    Enter a name
+name   "  "                  Enter a name
+name   "Sam"                 ok
+name   "xxx…(81 x)"          Keep the name under 80 characters
+phone  ""                    ok
+phone  "+44 20 7946 0000"    ok
+phone  "(020) 7946-0000"     ok
+phone  "12"                  A phone number needs at least 3 digits
+phone  "call me"             Use digits, spaces, dashes and brackets only
+phone  "+++1234"             Use digits, spaces, dashes and brackets only
+email  ""                    ok
+email  "a@b.co"              ok
+email  "a@b"                 Enter an address like name@example.com
+email  "@b.co"               Enter an address like name@example.com
+email  "a b@c.de"            Enter an address like name@example.com
+email  "a@@b.co"             Enter an address like name@example.com

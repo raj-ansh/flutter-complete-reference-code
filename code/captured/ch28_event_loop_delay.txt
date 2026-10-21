@@ -1,0 +1,3 @@
+JSON text: 11.6 MB, 150,000 items
+parse on the main isolate:   longest gap between 10 ms ticks = 192 ms (150000 items)
+parse in Isolate.run:        longest gap between 10 ms ticks = 28 ms (150000 items)

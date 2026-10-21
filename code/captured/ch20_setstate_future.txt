@@ -1,0 +1,5 @@
+setState() callback argument returned a Future.
+The setState() method on _PlantsScreenState#3c757 was called with a closure or method that returned
+a Future. Maybe it is marked as "async".
+Instead of performing asynchronous work inside a call to setState(), first execute the work (without
+updating the widget state), and then synchronously update the state inside a call to setState().

@@ -1,0 +1,23 @@
+PUBLIC ROOM (alice owns it, bob is a member, carol is invited, dave is a stranger)
+         alice(owner)    bob(member)     carol(invited)  dave(outsider)  
+join     ok              ok              ok              ok              
+send     ok              ok              no              no              
+history  ok              ok              no              no              
+members  ok              ok              no              no              
+invite   ok              ok              no              no              
+kick     ok              no              no              no              
+close    ok              no              no              no              
+leave    no              ok              no              no              
+
+PRIVATE ROOM (alice owns it, bob is a member, carol is invited, dave is a stranger)
+         alice(owner)    bob(member)     carol(invited)  dave(outsider)  
+join     ok              ok              ok              404             
+send     ok              ok              no              404             
+history  ok              ok              no              404             
+members  ok              ok              no              404             
+invite   ok              ok              no              404             
+kick     ok              no              no              404             
+close    ok              no              no              404             
+leave    no              ok              no              404             
+
+ok = allowed   no = refused (forbidden)   404 = refused as if the room did not exist

@@ -1,0 +1,4 @@
+columns in the version 1 file: [id, title, body, updated_at]
+after opening with version 2:  [id, title, body, updated_at, pinned]  (user_version = 2)
+indexes created by upgrade:    [idx_notes_updated]
+old note still there:          "Written by version 1", pinned = false

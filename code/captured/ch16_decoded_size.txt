@@ -1,0 +1,3 @@
+big_gradient.png: 2000 x 2000 pixels, 15766 bytes on disk
+decoded at full size:      16000000 bytes in the image cache
+decoded with width: 200:   160000 bytes in the image cache

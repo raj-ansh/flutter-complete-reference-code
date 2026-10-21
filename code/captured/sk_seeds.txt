@@ -1,0 +1,4 @@
+openings (top y / height) of the towers on screen at 10 s, by seed:
+seed 42:  106.8/200  216.3/200  109.2/200
+seed 42:  106.8/200  216.3/200  109.2/200   (again: identical)
+seed 43:  98.3/200  155.6/200  284.8/200

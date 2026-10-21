@@ -1,0 +1,40 @@
+[7, 5, 3, 8, 1, 9]
+6
+3
+7
+9
+[1, 3, 5, 7, 8, 9]
+true
+[1, 3, 5, 7, 9]
+[1, 9, 25, 49, 81]
+[5, 7, 9]
+25
+true
+true
+{dart, flutter}
+2
+true
+{flutter}
+{apples: 12, pears: 4, plums: 7}
+12
+null
+0
+apples: 12
+pears: 4
+plums: 7
+[apples, plums]
+true
+[Ada]
+[90, 95]
+[0, 1, 2, 3, 4]
+[Home, Profile, Settings]
+[2, 4, 6]
+cannot modify a const list
+cannot modify an unmodifiable list
+nothing printed yet
+checking 1
+checking 3
+checking 5
+checking 7
+checking 9
+[5, 7, 9]

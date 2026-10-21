@@ -1,0 +1,4 @@
+wrong password                unauthorized: Wrong username or password.
+unknown user                  unauthorized: Wrong username or password.
+bad address                   invalid: The address must start with http:// or https://.
+empty address                 invalid: Enter the server address.

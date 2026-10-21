@@ -1,0 +1,3 @@
+searched "ba", then "basil"; "ba" answered last
+after "basil" answered:  [basil]
+after "ba" answered:     [basil]  (the old answer was ignored)

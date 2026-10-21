@@ -1,0 +1,6 @@
+SQLite library used by this test: 3.53.4
+
+ORDER BY updated_at DESC (has an index):
+  SCAN notes USING INDEX idx_notes_updated
+ORDER BY title (no index):
+  SCAN notes; USE TEMP B-TREE FOR ORDER BY

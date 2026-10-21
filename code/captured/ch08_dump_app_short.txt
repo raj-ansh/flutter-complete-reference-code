@@ -1,0 +1,20 @@
+AutomatedTestWidgetsFlutterBinding - DEBUG MODE
+[root]
+└View(state: _ViewState#1b041)
+ └RawView
+  └_RawViewInternal-[_DeprecatedRawViewKey TestFlutterView#b5181](renderObject: _ReusableRenderView#c16d3)
+   └_ViewScope
+    └_PipelineOwnerScope
+     └_MediaQueryFromView(state: _MediaQueryFromViewState#9c1f9)
+      └MediaQuery(MediaQueryData(size: Size(800.0, 600.0), devicePixelRatio: 3.0, ... more fields omitted ...))
+       └FocusTraversalGroup(policy: ReadingOrderTraversalPolicy#92724, state: _FocusTraversalGroupState#22e1d)
+        └Focus(debugLabel: "FocusTraversalGroup", focusNode: _FocusTraversalGroupNode#44ec8(FocusTraversalGroup), state: _FocusState#24fdb)
+         └_FocusInheritedScope
+          └_FocusScopeWithExternalFocusNode(debugLabel: "View Scope", focusNode: FocusScopeNode#a0107(View Scope), dependencies: [_FocusInheritedScope], state: _FocusScopeState#59bfa)
+           └_FocusInheritedScope
+            └TinyApp
+             └Directionality(textDirection: ltr)
+              └Center(alignment: Alignment.center, dependencies: [Directionality], renderObject: RenderPositionedBox#025c1)
+               └Text("Hi", dependencies: [MediaQuery])
+                └RichText(softWrap: wrapping at box width, maxLines: unlimited, text: "Hi", dependencies: [Directionality, MediaQuery], renderObject: RenderParagraph#77481 relayoutBoundary=up1)
+

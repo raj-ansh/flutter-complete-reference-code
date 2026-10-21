@@ -1,0 +1,6 @@
+androidTapTargetGuideline: passed=false
+SemanticsNode#4(Rect.fromLTRB(388.0, 288.0, 412.0, 312.0), actions: [tap]): expected tap target size of at least Size(48.0, 48.0), but found Size(24.0, 24.0)
+See also: https://support.google.com/accessibility/android/answer/7101858?hl=en
+
+labeledTapTargetGuideline: passed=false
+SemanticsNode#4(Rect.fromLTRB(388.0, 288.0, 412.0, 312.0), actions: [tap]): expected tappable node to have semantic label, but none was found.

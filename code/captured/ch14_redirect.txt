@@ -1,0 +1,2 @@
+signed out, go(/account) lands on: /login?from=%2Faccount
+after signing in, location is:      /account

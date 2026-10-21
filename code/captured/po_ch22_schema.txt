@@ -1,0 +1,2 @@
+user_version: 2
+tables: [appointments, contacts, notes, tasks]

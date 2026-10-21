@@ -1,0 +1,6 @@
+what the server saw:
+  GET /plants?page=1  Accept=application/json  Authorization=present
+
+what the client got:
+  2 plants: Gänseblümchen, Fern
+  next page: 2

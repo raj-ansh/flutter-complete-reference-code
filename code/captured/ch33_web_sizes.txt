@@ -1,0 +1,10 @@
+web_demo (Flutter 3.47.6), release builds; sizes in bytes before and after gzip
+
+file                                            raw       gzip
+web_js/main.dart.js                         2021624     595133
+web_js/canvaskit/canvaskit.wasm             7284602    2916585
+web_js/canvaskit/skwasm.wasm                3593715    1537083
+web/main.dart.js                            2021624     595133
+web/main.dart.wasm                          1618011     604449
+
+whole output folder (bytes):  build/web_js (JavaScript build) 41267735;  build/web (--wasm build) 42915494

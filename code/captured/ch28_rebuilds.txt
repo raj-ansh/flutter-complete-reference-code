@@ -1,0 +1,8 @@
+one tap on the counter button, counted with debugPrintRebuildDirtyWidgets
+
+                                           version 1   version 2
+                                           (whole      (state only
+                                           screen)     in button)
+widgets rebuilt in total                        53          28
+of which Panel                                   2           0
+of which the stateful widget itself              1           1

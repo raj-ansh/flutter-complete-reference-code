@@ -1,0 +1,2 @@
+Row 1 (320 wide): fixed=80.0  flex1=80.0  flex2=160.0
+Row 2 (320 wide): Flexible=60.0  Expanded=160.0

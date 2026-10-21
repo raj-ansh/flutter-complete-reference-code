@@ -1,0 +1,7 @@
+00:00 +0: loading E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/error_reporting_test.dart
+00:00 +0: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/rebuilds_test.dart: setState high in the tree rebuilds the panels; splitting avoids it
+00:03 +1: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/rebuilds_test.dart: setState high in the tree rebuilds the panels; splitting avoids it
+00:03 +2: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/rebuilds_test.dart: setState high in the tree rebuilds the panels; splitting avoids it
+00:03 +3: E:/EBooks-Design/practical_flutter/book/code/flutter_examples/test/ch28/rebuilds_test.dart: setState high in the tree rebuilds the panels; splitting avoids it
+00:03 +4: All tests passed!
+exit=0

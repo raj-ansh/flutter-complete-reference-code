@@ -1,0 +1,8 @@
+device pixel ratio   file chosen                      scale
+1.0                  assets/images/leaf.png          1.0
+1.5                  assets/images/2.0x/leaf.png     2.0
+1.8                  assets/images/2.0x/leaf.png     2.0
+2.0                  assets/images/2.0x/leaf.png     2.0
+2.7                  assets/images/3.0x/leaf.png     3.0
+3.0                  assets/images/3.0x/leaf.png     3.0
+4.0                  assets/images/3.0x/leaf.png     3.0

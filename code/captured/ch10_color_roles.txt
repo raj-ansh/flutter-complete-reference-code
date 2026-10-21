@@ -1,0 +1,9 @@
+role                      light      dark
+primary                   #006B5E    #83D5C5
+onPrimary                 #FFFFFF    #003730
+primaryContainer          #9FF2E1    #005046
+secondary                 #4A635E    #B1CCC5
+tertiary                  #446279    #ACCAE5
+error                     #BA1A1A    #FFB4AB
+surface                   #F4FBF8    #0E1513
+onSurface                 #171D1B    #DEE4E1

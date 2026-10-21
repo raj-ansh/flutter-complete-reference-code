@@ -1,0 +1,11 @@
+affirmative
+small positive int
+non-null: 50
+non-null: hi
+it was null
+7
+TypeError: _TypeError
+Ada
+Caught: Null check operator used on a null value
+[Header, Intro, Footer]
+{a: 1, b: 2}

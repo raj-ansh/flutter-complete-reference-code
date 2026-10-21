@@ -1,0 +1,6 @@
+2026-11-05   -> 2026-11-05
+2028-02-29   -> 2028-02-29
+2026-02-29   -> FormatException: No such day: 2026-02-29
+2026-04-31   -> FormatException: No such day: 2026-04-31
+2026-13-01   -> FormatException: No such day: 2026-13-01
+5 Nov 2026   -> FormatException: Not a date (YYYY-MM-DD): 5 Nov 2026

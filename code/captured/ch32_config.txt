@@ -1,0 +1,14 @@
+$ dart run bin/ch32_config.dart
+flavor:         development
+api url:        http://localhost:3000
+logging:        false
+
+$ dart run -DAPI_URL=https://staging.example.test -DFLAVOR=staging bin/ch32_config.dart
+flavor:         staging
+api url:        https://staging.example.test
+logging:        false
+
+$ dart run -DENABLE_LOGGING=true bin/ch32_config.dart
+flavor:         development
+api url:        http://localhost:3000
+logging:        true

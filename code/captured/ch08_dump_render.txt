@@ -1,0 +1,40 @@
+_ReusableRenderView#69a38
+ │ debug mode enabled - windows
+ │ view size: Size(2400.0, 1800.0) (in physical pixels)
+ │ device pixel ratio: 3.0 (physical pixels per logical pixel)
+ │ configuration: BoxConstraints(w=800.0, h=600.0) at 3.0x (in
+ │   logical pixels)
+ │
+ └─child: RenderPositionedBox#07da9
+   │ creator: Center ← Directionality ← TinyApp ← _FocusInheritedScope
+   │   ← _FocusScopeWithExternalFocusNode ← _FocusInheritedScope ←
+   │   Focus ← FocusTraversalGroup ← MediaQuery ← _MediaQueryFromView
+   │   ← _PipelineOwnerScope ← _ViewScope ← ⋯
+   │ parentData: <none>
+   │ constraints: BoxConstraints(w=800.0, h=600.0)
+   │ size: Size(800.0, 600.0)
+   │ alignment: Alignment.center
+   │ textDirection: ltr
+   │ widthFactor: expand
+   │ heightFactor: expand
+   │
+   └─child: RenderParagraph#2a30f relayoutBoundary=up1
+     │ creator: RichText ← Text ← Center ← Directionality ← TinyApp ←
+     │   _FocusInheritedScope ← _FocusScopeWithExternalFocusNode ←
+     │   _FocusInheritedScope ← Focus ← FocusTraversalGroup ← MediaQuery
+     │   ← _MediaQueryFromView ← ⋯
+     │ parentData: offset=Offset(386.0, 293.0) (can use size)
+     │ constraints: BoxConstraints(0.0<=w<=800.0, 0.0<=h<=600.0)
+     │ semantics node: SemanticsNode#1
+     │ size: Size(28.0, 14.0)
+     │ textAlign: start
+     │ textDirection: ltr
+     │ softWrap: wrapping at box width
+     │ overflow: clip
+     │ maxLines: unlimited
+     │ devicePixelRatio: 3.0
+     ╘═╦══ text ═══
+       ║ TextSpan:
+       ║   <all styles inherited>
+       ║   "Hi"
+       ╚═══════════

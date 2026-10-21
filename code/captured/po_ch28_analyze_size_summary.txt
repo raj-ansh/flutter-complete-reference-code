@@ -1,0 +1,33 @@
+app-release.apk (total compressed)                                         18 MB
+  META-INF/
+    androidx                                                                3 KB
+  assets/
+    flutter_assets                                                        114 KB
+  classes.dex                                                             412 KB
+  lib/
+    arm64-v8a                                                              17 MB
+    Dart AOT symbols accounted decompressed size                            6 MB
+      package:flutter                                                       3 MB
+      dart:mixin_deduplication                                            350 KB
+      dart:core                                                           278 KB
+      dart:ui                                                             230 KB
+      dart:typed_data                                                     168 KB
+      package:material_ui                                                 125 KB
+      package:pocket_organizer                                            118 KB
+      dart:async                                                           95 KB
+      package:go_router                                                    93 KB
+      dart:collection                                                      77 KB
+      package:material_color_utilities                                     71 KB
+      dart:convert                                                         46 KB
+      dart:io                                                              46 KB
+      package:jni                                                          38 KB
+      package:vector_math/
+        vector_math_64.dart                                                35 KB
+      package:characters                                                   34 KB
+      package:sqflite_common                                               26 KB
+      dart:isolate                                                         24 KB
+      package:cupertino_ui/
+        src                                                                23 KB
+      package:path                                                         21 KB
+    armeabi-v7a                                                            84 KB
+    x86_64                                                                120 KB

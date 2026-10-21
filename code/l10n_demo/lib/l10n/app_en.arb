@@ -1,0 +1,30 @@
+{
+  "@@locale": "en",
+  "appTitle": "Tasks",
+  "@appTitle": {
+    "description": "Title of the screen and of the app"
+  },
+  "taskCount": "{count, plural, =0{No tasks} =1{One task} other{{count} tasks}}",
+  "@taskCount": {
+    "description": "How many tasks are open",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dueOn": "Due {date}",
+  "@dueOn": {
+    "description": "Shows when a task is due",
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMMMd"
+      }
+    }
+  },
+  "addTask": "Add task",
+  "@addTask": {
+    "description": "Label of the button that adds a task"
+  }
+}

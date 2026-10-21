@@ -1,0 +1,7 @@
+event order seen by the client (the server was stopped, then restarted):
+  Connected
+  Disconnected (transport close)
+  send() while offline: SendFailed("Not connected")
+  (server restarted on the same port)
+  Connected
+  send() after reconnect: Sent(id: 1)

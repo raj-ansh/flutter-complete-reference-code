@@ -1,0 +1,4 @@
+bob sees 0 rooms; join -> not_found; send -> not_found
+alice invites bob -> bob's device receives: invitation to "Plans" from alice
+carol, who was not invited, receives nothing
+bob accepts (joins), and now receives the room's messages

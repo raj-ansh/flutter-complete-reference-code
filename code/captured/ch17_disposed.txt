@@ -1,0 +1,2 @@
+A PantryModel was used after being disposed.
+Once you have called dispose() on a PantryModel, it can no longer be used.

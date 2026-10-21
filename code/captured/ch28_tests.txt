@@ -1,0 +1,6 @@
+PASS a bug in build is reported and replaced by a friendly widget
+PASS an error that escapes asynchronous code reaches the zone handler
+PASS without any handler the same error would be unhandled
+PASS setState high in the tree rebuilds the panels; splitting avoids it
+
+All tests passed: 4 of 4

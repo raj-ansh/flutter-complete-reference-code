@@ -1,0 +1,4 @@
+effect    seconds   samples   peak (0 to 1)   last sample
+flap      0.12      2646      0.45            0.0000
+pickup    0.22      4851      0.40            -0.0001
+crash     0.40      8820      0.69            -0.0000

@@ -1,0 +1,8 @@
+$ flutter create --platforms=windows .
+
+Your application code is in .\lib\main.dart.
+
+
+$ flutter build windows
+Unable to find suitable Visual Studio toolchain. Please run `flutter doctor` for more details.
+exit code: 1

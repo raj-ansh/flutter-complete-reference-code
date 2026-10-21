@@ -1,0 +1,10 @@
+PASS a number from the platform becomes a BatteryLevel
+PASS an error from the native side becomes BatteryUnavailable
+PASS a platform with no handler is reported, not thrown
+PASS nonsense from the platform is refused
+PASS already granted: no request is made
+PASS denied, then the user agrees
+PASS denied, and the user says no again: explain and offer another try
+PASS permanently denied: never ask, point to Settings
+
+All tests passed: 8 of 8

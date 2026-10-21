@@ -1,0 +1,26 @@
+a + b = 22
+a / b = 3.4
+a ~/ b = 3
+a % b = 2
+2 + 3 * 4 = 14
+59.97
+20
+19
+2.5
+3.5
+43
+6.28
+null
+Grace Hopper
+Name length: 11
+GRACE / hopper
+Line one
+Line two
+C:\temp\new
+6
+true
+to BE or not to BE
+be
+padded
+007
+item1 item2 item3

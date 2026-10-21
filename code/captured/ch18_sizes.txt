@@ -1,0 +1,5 @@
+non-blank, non-comment lines of the book listings (state-to-view
+mapping included, shared PantryState/PantryView/repository excluded)
+ChangeNotifier + provider   43
+Riverpod                    56
+Bloc                        53

@@ -1,0 +1,20 @@
+{
+  "name": "relay-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Relay: a small real-time chat server (the example server of the book Flutter, The Complete Reference)",
+  "main": "src/main.js",
+  "engines": {
+    "node": ">=24.7"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.4"
+  }
+}

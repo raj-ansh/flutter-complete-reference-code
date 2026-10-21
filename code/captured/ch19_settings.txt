@@ -1,0 +1,4 @@
+first run (defaults):          ThemeMode.system, newestFirst=true, launches=0
+after saving and restarting:   ThemeMode.dark, newestFirst=false, launches=2
+the stored theme text is:      "dark"
+a damaged value "neon" reads:  ThemeMode.system

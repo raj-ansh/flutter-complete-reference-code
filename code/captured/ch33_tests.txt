@@ -1,0 +1,4 @@
+PASS the facts describe the test environment
+PASS every fact is shown as a list tile
+
+All tests passed: 2 of 2

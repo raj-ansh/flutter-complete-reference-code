@@ -1,0 +1,2 @@
+Cannot perform code size analysis when building for multiple ABIs. Specify one of android-arm, android-arm64, or android-x64 in the --target-platform flag.
+exit=1

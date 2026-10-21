@@ -1,0 +1,7 @@
+Age is 42
+Problem: Not a number
+Problem: Out of range
+spinner
+empty message
+list of 2
+error: offline

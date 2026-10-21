@@ -1,0 +1,4 @@
+rows before:                         2
+transaction with a failing insert:   SqfliteFfiException
+rows after the failed transaction:   2
+rows after a successful one (+2):    4

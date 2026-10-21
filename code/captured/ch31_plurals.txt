@@ -1,0 +1,18 @@
+en  0 -> No tasks
+en  1 -> One task
+en  2 -> 2 tasks
+en  3 -> 3 tasks
+en  11 -> 11 tasks
+en  100 -> 100 tasks
+es  0 -> Sin tareas
+es  1 -> Una tarea
+es  2 -> 2 tareas
+es  3 -> 3 tareas
+es  11 -> 11 tareas
+es  100 -> 100 tareas
+ar  0 -> لا توجد مهام
+ar  1 -> مهمة واحدة
+ar  2 -> مهمتان
+ar  3 -> 3 مهام
+ar  11 -> 11 مهمة
+ar  100 -> 100 مهمة

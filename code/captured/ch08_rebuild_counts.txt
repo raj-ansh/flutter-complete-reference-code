@@ -1,0 +1,3 @@
+after 3 increments (4 builds of the parent):
+  const child built 1 time(s)
+  plain child built 4 time(s)

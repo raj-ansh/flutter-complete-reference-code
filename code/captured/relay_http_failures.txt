@@ -1,0 +1,13 @@
+sign up: username taken (any case)           409  conflict: That username is taken.
+sign up: password too short                  400  invalid: password must be at least 10 characters
+sign up: bad username                        400  invalid: username may contain only letters, digits and underscore
+sign up: password is a number                400  invalid: password must be text
+sign up: fields missing                      400  invalid: username must be text
+sign in: wrong password                      401  unauthorized: Wrong username or password.
+sign in: no such user                        401  unauthorized: Wrong username or password.
+sign in: password not text                   401  unauthorized: Wrong username or password.
+body is not JSON                             400  invalid: Body is not valid JSON.
+body is a JSON array                         400  invalid: Body must be a JSON object.
+body is a JSON string                        400  invalid: Body must be a JSON object.
+body too large (5000 bytes, limit 4096)      413  too_large: Request body too large.
+wrong content type                           400  invalid: Send JSON with Content-Type: application/json.

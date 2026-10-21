@@ -1,0 +1,1 @@
+error - ch06_shorthand_error.dart:4:11 - A dot shorthand can't be used where there is no context type. - dot_shorthand_missing_context

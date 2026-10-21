@@ -1,0 +1,5 @@
+2026-10: 1st is weekday 4, 3 blank cell(s) first, 31 days, 5 week rows
+2026-02: 1st is weekday 7, 6 blank cell(s) first, 28 days, 5 week rows
+2028-02: 1st is weekday 2, 1 blank cell(s) first, 29 days, 5 week rows
+2024-01: 1st is weekday 1, 0 blank cell(s) first, 31 days, 5 week rows
+2026-03: 1st is weekday 7, 6 blank cell(s) first, 31 days, 6 week rows

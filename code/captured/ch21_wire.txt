@@ -1,0 +1,8 @@
+GET /socket.io/?EIO=4&transport=polling  ->  200
+  0{"sid":"<random id>","upgrades":["websocket"],"pingInterval":25000,"pingTimeout":20000,"maxPayload":1000000}
+
+plain WebSocket client on /socket.io/ received these frames:
+  0{"sid":"<random id>","upgrades":[],"pingInterval":25000,"pingTimeout":20000,"maxPayload":1000000}
+  (it sent "hello from a plain WebSocket client"; nothing came back)
+
+plain WebSocket client on / ->  WebSocketChannelException

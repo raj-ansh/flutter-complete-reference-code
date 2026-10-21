@@ -1,0 +1,16 @@
+Rex says Woof
+Tom says Meow
+Tom purrs
+Thing says ...
+Rex fetches the ball
+Rectangle with area 12.00
+Circle with area 3.14
+Ada earns 60000.0 a year
+5000.0
+true
+Donald says Quack
+taking off
+swimming
+true
+true
+false

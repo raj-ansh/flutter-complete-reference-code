@@ -1,0 +1,5 @@
+Performing hot reload...                                         1,263ms
+Recompile complete. No client connected.
+Performing hot restart...                                          349ms
+Recompile complete. No client connected.
+Application finished.

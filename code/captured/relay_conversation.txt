@@ -1,0 +1,4 @@
+alice sends "  Water the basil!  "  -> ack: ok, seq 1
+alice receives: alice: "Water the basil!" (seq 1)
+bob receives:   alice: "Water the basil!" (seq 1)
+dave, not in the room, receives nothing

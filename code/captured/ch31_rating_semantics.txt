@@ -1,0 +1,1 @@
+SemanticsNode#4(Rect.fromLTRB(280.0, 276.0, 520.0, 324.0), actions: [decrease, increase], label: "Rating", value: "3 of 5", increasedValue: "4 of 5", decreasedValue: "2 of 5", textDirection: ltr)

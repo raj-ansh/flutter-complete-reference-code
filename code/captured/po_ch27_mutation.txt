@@ -1,0 +1,30 @@
+baseline (no change): passed
+M1 killed
+M2 killed
+M3 killed
+M4 killed
+M5 passed
+M6 passed
+M7 killed
+M8 killed
+M9 killed
+M10 passed
+M11 passed
+M12 killed
+
+id   result          meaning of the change                                             first failing test
+M1   killed          a slow, old search answer may overwrite a newer one               an old, slow search result cannot overwrite a newer one
+M2   killed          impossible dates such as 2026-02-30 are accepted                  parse and format round-trip, and reject impossible days
+M3   killed          appointments that only touch count as overlapping                 overlap touching is not overlapping; sharing a minute is
+M4   killed          a task due today is shown as overdue                              sections a task belongs to exactly the section its day and state say
+M5   SURVIVED        the +7 is dropped from the number of blank cells                  
+M6   SURVIVED        the version-2 upgrade no longer creates the tasks index           
+M7   killed          a phone number needs only 2 digits instead of 3                   validation what each validator accepts and says
+M8   killed          the OLD photo is kept, and the one still in use is deleted        view model with a fake picker and storage replacing or removing a photo deletes the old fi
+M9   killed          notes are stamped with the real clock instead of the injected one save stamps the time from the clock and refreshes the list
+M10  SURVIVED        no room under the list for the floating button                    
+M11  SURVIVED        the empty-state icon is much smaller                              
+M12  killed          leaving an edited note no longer asks for confirmation            leaving with unsaved changes asks first
+
+8 killed by a failing test, 4 survived, 0 could not be judged
+exit=0

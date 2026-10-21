@@ -1,0 +1,19 @@
+{
+  "plants": [
+    {
+      "name": "Basil",
+      "light": "sun",
+      "heightCm": 40
+    },
+    {
+      "name": "Fern",
+      "light": "shade",
+      "heightCm": 60
+    },
+    {
+      "name": "Tomato",
+      "light": "sun",
+      "heightCm": 150
+    }
+  ]
+}

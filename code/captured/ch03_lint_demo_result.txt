@@ -1,0 +1,4 @@
+warning - Unused import: 'dart:io'. Try removing the import directive - lib\lint_demo.dart:1:8 - unused_import
+info - Constructors in '@immutable' classes should be declared as 'const'. Try adding 'const' to the constructor declaration - lib\lint_demo.dart:5:3 - prefer_const_constructors_in_immutables
+warning - The value of the local variable 'unused' isn't used. Try removing the variable or using it - lib\lint_demo.dart:9:9 - unused_local_variable
+info - Unnecessary instance of 'Container'. Try removing the 'Container' (but not its children) from the widget tree - lib\lint_demo.dart:10:12 - avoid_unnecessary_containers

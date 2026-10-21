@@ -1,0 +1,4 @@
+the room showed seq 1 and 2, then the connection dropped and came back.
+requests sent after the reconnect:
+  room:history {roomId: r1, afterSeq: 2}
+the room now shows: #1 "one", #2 "two", #3 "while away", #4 "also missed"

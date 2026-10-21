@@ -1,0 +1,15 @@
+(Ada, 36)
+Ada
+36
+Alan
+(age: 41, name: Alan)
+3
+point
+(Grace, 85) (age: 85, name: Grace)
+true
+false
+true
+low=2 high=9
+4 items, mean 5.5
+4 / 5.5
+a=2 b=1

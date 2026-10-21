@@ -1,0 +1,21 @@
+# build output and downloaded packages
+build/
+.dart_tool/
+.gradle/
+node_modules/
+coverage/
+*.apk
+*.aab
+# secrets and local machine files
+*.jks
+*.keystore
+key.properties
+local.properties
+.flutter-plugins-dependencies
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+.idea/
+*.iml
+*.log
+tls_demo/key.pem
+tls_demo/cert.pem

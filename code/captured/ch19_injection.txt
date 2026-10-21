@@ -1,0 +1,7 @@
+search text typed by a user:  x' OR '1'='1
+
+built with string interpolation:  WHERE title = 'x' OR '1'='1'
+  rows returned: 2  [Groceries, Secrets]
+
+built with whereArgs:             WHERE title = ?
+  rows returned: 0

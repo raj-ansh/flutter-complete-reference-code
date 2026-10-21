@@ -1,0 +1,7 @@
+error - ch04_errors_demo.dart:3:7 - Conditions must have a static type of 'bool'. Try changing the condition. - non_bool_condition
+error - ch04_errors_demo.dart:6:17 - A value of type 'Null' can't be assigned to a variable of type 'String'. Try changing the type of the variable, or casting the right-hand type to 'String'. - invalid_assignment
+error - ch04_errors_demo.dart:7:15 - A value of type 'String' can't be assigned to a variable of type 'int'. Try changing the type of the variable, or casting the right-hand type to 'int'. - invalid_assignment
+error - ch04_errors_demo.dart:9:3 - The final variable 'f' can only be set once. Try making 'f' non-final. - assignment_to_final_local
+error - ch04_errors_demo.dart:10:15 - Const variables must be initialized with a constant value. Try changing the initializer to be a constant expression. - const_initialized_with_non_constant_value
+error - ch04_errors_demo.dart:10:15 - The constructor being called isn't a const constructor. Try removing 'const' from the constructor invocation. - const_with_non_const
+error - ch04_errors_demo.dart:12:12 - The argument type 'String' can't be assigned to the parameter type 'int'.  - argument_type_not_assignable

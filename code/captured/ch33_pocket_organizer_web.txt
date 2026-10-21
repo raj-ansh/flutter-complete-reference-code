@@ -1,0 +1,15 @@
+Pocket Organizer built for the web (a scratch copy of the project with the web platform added by "flutter create --platforms=web ."):
+
+$ flutter build web
+Compiling lib\main.dart for the Web...                          77.9s
+√ Built build\web                                                (exit code 0)
+
+Opened in Chrome (served by tool/serve.py), the page stayed blank and the console showed:
+
+exception: Error
+    at Object.wrapException (main.dart.js)
+    at databaseFactory_closure.call$0 (main.dart.js)
+    at Object.databaseFactory (main.dart.js)
+    ...
+
+(The names are readable because this was a --profile build; the release build showed only "Error" and no names.)

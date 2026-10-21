@@ -1,0 +1,4 @@
+1. default client:            refused: HandshakeException: Handshake error in client; 
+	CERTIFICATE_VERIFY_FAILED: self signed certificate(../../third_party/boringssl/src/ssl/handshake.cc:320)
+2. accept-everything callback: connected, status 200, body: {"ok":true,"secret":"the answer is 42"}
+3. trust only cert.pem:        connected, status 200, body: {"ok":true,"secret":"the answer is 42"}

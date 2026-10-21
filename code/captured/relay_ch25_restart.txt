@@ -1,0 +1,6 @@
+server stopped
+  alice.online = false, bob.online = false
+  sending now: refused (network)
+server started again on the same port, same data file
+  alice.online = true, bob.online = true
+  alice sends, bob receives: "after the restart"

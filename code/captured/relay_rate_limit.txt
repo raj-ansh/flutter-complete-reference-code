@@ -1,0 +1,7 @@
+t=    0 ms  1st                allowed
+t=    0 ms  2nd                allowed
+t=    0 ms  3rd                allowed
+t=    0 ms  4th, same instant  refused, retry in 1000 ms
+t=  400 ms  after 0.4 s        refused, retry in 600 ms
+t= 1000 ms  after 1 s          allowed
+t= 1000 ms  immediately again  refused, retry in 1000 ms

@@ -1,0 +1,7 @@
+$ dart format --output=none --set-exit-if-changed lib test   (before)
+Formatted 47 files (21 changed) in 0.22 seconds.
+exit code: 1
+
+$ dart format --output=none --set-exit-if-changed lib test   (after running dart format)
+Formatted 47 files (0 changed) in 0.17 seconds.
+exit code: 0

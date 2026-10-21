@@ -1,0 +1,4 @@
+Test screen: 800 x 600 logical pixels, rows 56 pixels tall, 1000 items
+                    widgets created   widgets built
+ListView(children)       1000               16
+ListView.builder           16               16

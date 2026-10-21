@@ -1,0 +1,4 @@
+file does not exist yet:      default
+after write, read back:       {theme: dark, sizes: [1, 2]}
+temporary file left behind:   false
+file cut off mid-write:       default

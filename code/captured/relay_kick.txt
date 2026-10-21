@@ -1,0 +1,4 @@
+carol (a member) tries to remove bob -> forbidden
+alice removes bob -> bob (both devices) receive room:kicked; carol receives room:changed (removed, bob)
+a message sent afterwards reaches neither of bob's devices
+bob tries to come back without a new invitation -> not_found

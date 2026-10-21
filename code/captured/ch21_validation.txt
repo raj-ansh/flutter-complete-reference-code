@@ -1,0 +1,3 @@
+send("   "):        Rejected("text must be 1 to 200 characters")
+send(201 chars):    Rejected("text must be 1 to 200 characters")
+send(200 chars):    Sent(id: 1)

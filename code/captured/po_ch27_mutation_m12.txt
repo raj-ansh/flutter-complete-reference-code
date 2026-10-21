@@ -1,0 +1,8 @@
+baseline (no change): passed
+M12 killed
+
+id   result          meaning of the change                                             first failing test
+M12  killed          leaving an edited note no longer asks for confirmation            leaving with unsaved changes asks first
+
+1 killed by a failing test, 0 survived, 0 could not be judged
+finished

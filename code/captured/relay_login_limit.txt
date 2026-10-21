@@ -1,0 +1,4 @@
+12 wrong guesses in a row for one user: 401 401 401 401 401 401 401 401 401 401 429 429
+then the correct password, while limited:   429 (Retry-After: 6 s)
+another username, same address:            401 (its own allowance)
+a minute later, correct password:          200

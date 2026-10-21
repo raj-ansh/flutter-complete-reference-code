@@ -1,0 +1,5 @@
+start:                 /
+after go(/notes/3):    /notes/3   canPop=false
+after push(/notes/7):  /   canPop=true
+after go(/search?q=):  /search?q=tomato
+after go(/nope):       /nope  (error page shown)

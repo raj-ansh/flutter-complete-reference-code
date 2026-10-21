@@ -1,0 +1,3 @@
+120,000 validator calls on random strings, numbers, objects and oddities (seed 12345)
+exceptions thrown: 0
+inputs accepted: 8,728 (the rest were refused with a message)

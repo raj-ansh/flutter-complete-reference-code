@@ -1,0 +1,10 @@
+Pocket Organizer, sizes of the files Flutter built (bytes)
+
+app-debug.apk                       170931586
+app-release.apk                      54416613
+app-arm64-v8a-release.apk            18132611
+app-armeabi-v7a-release.apk          15311951
+app-x86_64-release.apk               19616383
+
+(app-release.apk contains all three architectures; the three per-ABI files each contain one.)
+The arm64-only build made with --analyze-size reported: Built app-release.apk (18.4MB).

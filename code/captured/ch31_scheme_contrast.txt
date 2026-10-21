@@ -1,0 +1,9 @@
+seed ff009688 dark: 9 of 9 pairs reach 4.5:1
+seed ff009688 light: 8 of 9 pairs reach 4.5:1
+    outline / surface: 4.28
+seed ff673ab7 dark: 9 of 9 pairs reach 4.5:1
+seed ff673ab7 light: 8 of 9 pairs reach 4.5:1
+    outline / surface: 4.27
+seed ffffc107 dark: 9 of 9 pairs reach 4.5:1
+seed ffffc107 light: 8 of 9 pairs reach 4.5:1
+    outline / surface: 4.26

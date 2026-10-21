@@ -1,0 +1,6 @@
+error - ch05_errors_demo.dart:20:7 - Missing concrete implementation of 'getter Shape.area'. Try implementing the missing method, or make the class abstract. - non_abstract_class_inherits_abstract_member
+error - ch05_errors_demo.dart:23:14 - The argument type 'int' can't be assigned to the parameter type 'int Function(int)'.  - argument_type_not_assignable
+error - ch05_errors_demo.dart:24:3 - The named parameter 'name' is required, but there's no corresponding argument. Try adding the required argument. - missing_required_argument
+error - ch05_errors_demo.dart:25:11 - Abstract classes can't be instantiated. Try creating an instance of a concrete subtype. - instantiate_abstract_class
+error - ch05_errors_demo.dart:26:13 - Too many positional arguments: 1 expected, but 2 found. Try removing the extra arguments. - extra_positional_arguments
+warning - ch05_errors_demo.dart:13:8 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member

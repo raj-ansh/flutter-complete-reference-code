@@ -1,0 +1,6 @@
+build() calls caused by each action (the first row is the start-up build)
+action                      list  select badge  watch badge  add bar
+start                          1             1            1         1
+tick a checkbox                1             1            1         0
+rename an item                 1             0            1         0
+add an item                    1             1            1         0

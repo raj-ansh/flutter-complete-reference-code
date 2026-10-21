@@ -1,0 +1,1 @@
+info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\async_gap_bug.dart:13:30 - use_build_context_synchronously

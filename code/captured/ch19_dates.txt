@@ -1,0 +1,5 @@
+created from a local time:     isUtc = false
+stored as milliseconds:        1792123200000
+restored from the database:    isUtc = true, same instant = true
+JSON text:                     2026-10-16T04:00:00.000Z
+restored from JSON:            same instant = true

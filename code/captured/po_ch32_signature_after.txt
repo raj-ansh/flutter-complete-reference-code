@@ -1,0 +1,6 @@
+$ apksigner verify --print-certs app-arm64-v8a-release.apk   (rebuilt with the upload key)
+
+V2 Signer: certificate DN: CN=Book Demo Upload Key, OU=Demo, O=Not A Real Organization, C=XX
+V2 Signer: certificate SHA-256 digest: bc95d628210372e8d1518c829a6e46d6ce367930719e01d5ecf6ef895f25442d
+V2 Signer: certificate SHA-1 digest: 4d608274ef74642f192133f53aebb732959678ff
+V2 Signer: certificate MD5 digest: e0685afd8d4fcf18fab2dae8b21dcf61

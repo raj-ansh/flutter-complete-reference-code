@@ -1,0 +1,59 @@
+// This file is NOT compiled as part of the project. It is copied to
+// test/appb_probe.dart, analyzed with `flutter analyze test/appb_probe.dart`,
+// and deleted again. Each line uses one API from Flutter 1.x era code; the
+// analyzer's answer for each line is what Appendix B reports.
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
+
+void probe(BuildContext context) {
+  final theme = Theme.of(context);
+  // --- widgets ---
+  RaisedButton(onPressed: () {}, child: const Text('x')); // L01
+  FlatButton(onPressed: () {}, child: const Text('x')); // L02
+  OutlineButton(onPressed: () {}, child: const Text('x')); // L03
+  Scaffold.of(context).showSnackBar(const SnackBar(content: Text('x'))); // L04
+  BottomNavigationBarItem(title: const Text('x'), icon: const Icon(Icons.home)); // L05
+  WillPopScope(onWillPop: () async => true, child: const SizedBox()); // L06
+  ButtonBar(children: const []); // L07
+  Radio<int>(value: 1, groupValue: 1, onChanged: (_) {}); // L08
+  DropdownButtonFormField<int>(value: 1, items: const [], onChanged: (_) {}); // L09
+  Scaffold(resizeToAvoidBottomPadding: false); // L10
+  const InputDecoration(hasFloatingPlaceholder: true); // L11
+  AppBar(brightness: Brightness.dark); // L12
+  AppBar(textTheme: theme.textTheme); // L13
+  TextField(maxLengthEnforced: true); // L14
+  // --- text theme names ---
+  theme.textTheme.display4; // L15
+  theme.textTheme.display3; // L16
+  theme.textTheme.display2; // L17
+  theme.textTheme.display1; // L18
+  theme.textTheme.headline; // L19
+  theme.textTheme.title; // L20
+  theme.textTheme.subhead; // L21
+  theme.textTheme.subtitle; // L22
+  theme.textTheme.body2; // L23
+  theme.textTheme.body1; // L24
+  theme.textTheme.caption; // L25
+  theme.textTheme.button; // L26
+  theme.textTheme.overline; // L27
+  // --- theme and colors ---
+  theme.accentColor; // L28
+  theme.buttonColor; // L29
+  theme.colorScheme.background; // L30
+  theme.colorScheme.onBackground; // L31
+  theme.colorScheme.surfaceVariant; // L32
+  ThemeData(accentColor: Colors.teal); // L33
+  Colors.red.value; // L34
+  Colors.red.red; // L35
+  Colors.red.withOpacity(0.5); // L36
+  MediaQuery.of(context).textScaleFactor; // L37
+  // --- Dart 1/2 habits ---
+  final list = List<int>(); // L38
+  print(list);
+}
+
+void main() {
+  testWidgets('legacy test API', (tester) async {
+    tester.binding.window.physicalSizeTestValue = const Size(100, 100); // L39
+  });
+}

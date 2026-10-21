@@ -1,0 +1,19 @@
+$ flutter devices
+Found 3 connected devices:
+  Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26200.9278]
+  Chrome (web)      • chrome  • web-javascript • Google Chrome 155.0.8059.85
+  Edge (web)        • edge    • web-javascript • Microsoft Edge 155.0.4283.62
+Run "flutter emulators" to list and start any available device emulators.
+If you expected another device to be detected, please run "flutter doctor" to diagnose potential issues. You may also try increasing the time to wait for connected devices with the "--device-timeout" flag. Visit https://flutter.dev/setup/ for troubleshooting tips.
+
+$ flutter doctor -v   (the lines about Windows, Chrome and Visual Studio)
+    • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets, enable-record-use, enable-swift-package-manager, omit-legacy-version-file, enable-lldb-debugging, enable-uiscene-migration
+[√] Windows Version (Windows 11 or higher, 25H2, 2009) [1,051ms]
+[√] Android toolchain - develop for Android devices (Android SDK version 36.1.0) [697ms]
+[√] Chrome - develop for the web [19ms]
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+[X] Visual Studio - develop Windows apps [17ms]
+    X Visual Studio not installed; this is necessary to develop Windows apps.
+      Please install the "Desktop development with C++" workload, including all of its default components
+    • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26200.9278]
+    • Chrome (web)      • chrome  • web-javascript • Google Chrome 155.0.8059.85

@@ -1,0 +1,5 @@
+error - ch06_errors_demo.dart:9:25 - The type 'Shape' isn't exhaustively matched by the switch cases since it doesn't match the pattern 'Triangle()'. Try adding a wildcard pattern or cases that match 'Triangle()'. - non_exhaustive_switch_expression
+error - ch06_errors_demo.dart:25:12 - The argument type 'int' can't be assigned to the parameter type 'UserId'.  - argument_type_not_assignable
+error - ch06_errors_demo.dart:28:3 - The type 'Light' isn't exhaustively matched by the switch cases since it doesn't match the pattern 'Light.green'. Try adding a default case or cases that match 'Light.green'. - non_exhaustive_switch_statement
+error - ch06_errors_demo.dart:33:7 - The matched value of type '(int, int, int)' isn't assignable to the required type '(Object?, Object?)'. Try changing the required type of the pattern, or the matched value type. - pattern_type_mismatch_in_irrefutable_context
+error - ch06_errors_demo.dart:36:14 - The getter 'shout' isn't defined for the type 'Object'. Try importing the library that defines 'shout', correcting the name to the name of an existing getter, or defining a getter or field named 'shout'. - undefined_getter

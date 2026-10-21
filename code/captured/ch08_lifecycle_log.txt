@@ -1,0 +1,12 @@
+initState
+didChangeDependencies
+build
+--- tap ---
+onTap
+build
+--- parent supplies a new widget: label B ---
+didUpdateWidget (A -> B)
+build
+--- widget removed from the tree ---
+deactivate
+dispose

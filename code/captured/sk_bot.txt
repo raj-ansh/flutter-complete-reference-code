@@ -1,0 +1,14 @@
+a bot that aims at the middle of the next opening
+seed  survived (s)  towers  parcels  ended by
+1     117.7          80      30       tower
+2     140.9          102     45       tower
+3     113.8          76      36       tower
+4     93.1           59      25       tower
+5     98.1           63      34       tower
+6     141.4          102     36       tower
+7     136.7          97      38       tower
+8     86.4           53      28       tower
+9     86.5           55      28       tower
+10    91.5           59      31       tower
+11    100.3          65      26       tower
+12    83.9           52      19       tower

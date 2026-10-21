@@ -1,0 +1,10 @@
+"http://10.0.2.2:3000"                  -> http://10.0.2.2:3000
+"10.0.2.2:3000"                         -> http://10.0.2.2:3000
+"  https://chat.example.com/  "         -> https://chat.example.com
+"http://localhost:3000/api/login?x=1"   -> http://localhost:3000
+"chat.example.com"                      -> http://chat.example.com
+""                                      refused: Enter the server address.
+"   "                                   refused: Enter the server address.
+"ftp://example.com"                     refused: The address must start with http:// or https://.
+"http://"                               refused: That does not look like a server address.
+"http://exa mple.com"                   refused: That does not look like a server address.

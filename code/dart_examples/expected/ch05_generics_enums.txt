@@ -1,0 +1,11 @@
+Box(21)
+Box(value is 42)
+9
+zebra
+low: Low weight=1 urgent=false
+medium: Medium weight=2 urgent=false
+high: High weight=3 urgent=true
+Priority.medium
+Priority.high
+1
+[low, medium, high]

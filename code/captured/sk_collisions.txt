@@ -1,0 +1,8 @@
+circle r=10 against the rectangle (100,100)-(200,200)
+inside the rectangle              centre (150.0, 150.0)  HIT
+touching the left edge            centre (90.0, 150.0)  HIT
+1 unit short of the left edge     centre (89.0, 150.0)  miss
+touching the top edge             centre (150.0, 90.0)  HIT
+touching the corner exactly       centre (92.9289322, 92.9289322)  HIT
+near the corner, just outside     centre (92.0, 92.0)  miss
+far away                          centre (400.0, 400.0)  miss

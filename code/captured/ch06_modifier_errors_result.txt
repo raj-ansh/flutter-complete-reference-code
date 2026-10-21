@@ -1,0 +1,8 @@
+error - ch06_modifier_errors.dart:3:17 - The class 'Printer' can't be extended outside of its library because it's an interface class. - invalid_use_of_type_outside_library
+error - ch06_modifier_errors.dart:5:7 - The type 'B' must be 'base', 'final' or 'sealed' because the supertype 'Entity' is 'base'. - subtype_of_base_or_final_is_not_base_final_or_sealed
+error - ch06_modifier_errors.dart:5:20 - The class 'Entity' can't be implemented outside of its library because it's a base class. - invalid_use_of_type_outside_library
+error - ch06_modifier_errors.dart:10:17 - The class 'Token' can't be extended outside of its library because it's a final class. - invalid_use_of_type_outside_library
+error - ch06_modifier_errors.dart:14:20 - The class 'Token' can't be implemented outside of its library because it's a final class. - invalid_use_of_type_outside_library
+error - ch06_modifier_errors.dart:19:7 - Missing concrete implementation of 'Storage.read'. Try implementing the missing method, or make the class abstract. - non_abstract_class_inherits_abstract_member
+error - ch06_modifier_errors.dart:19:17 - The class 'Storage' can't be extended outside of its library because it's an interface class. - invalid_use_of_type_outside_library
+error - ch06_modifier_errors.dart:22:3 - Abstract classes can't be instantiated. Try creating an instance of a concrete subtype. - instantiate_abstract_class

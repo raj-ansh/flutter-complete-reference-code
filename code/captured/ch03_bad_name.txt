@@ -1,0 +1,5 @@
+"Bad-Name" is not a valid Dart package name. Try "bad_name" instead.
+
+The name should consist of lowercase words separated by underscores, "like_this". Use only basic Latin letters and Arabic digits: [a-z0-9_], and ensure the name is a valid Dart identifier (i.e. it does not start with a digit and is not a reserved word).
+
+See https://dart.dev/tools/pub/pubspec#name for more information.

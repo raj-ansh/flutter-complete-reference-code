@@ -1,0 +1,29 @@
+username "  Sam_01 "             ok -> "sam_01"
+username "ab"                    username must be 3 to 20 characters
+username "aaaaaaaaaaaaaaaaaaaaa" username must be 3 to 20 characters
+username "has space"             username may contain only letters, digits and underscore
+username "sam!"                  username may contain only letters, digits and underscore
+username "émile"                 username may contain only letters, digits and underscore
+username 7                       username must be text
+username null                    username must be text
+username undefined               username must be text
+password "xxxxxxxxxx"            ok -> "xxxxxxxxxx"
+password "short"                 password must be at least 10 characters
+password xxxxxxxx…(129 chars)    password must be at most 128 characters
+password "🔑🔑🔑🔑🔑🔑🔑🔑🔑🔑"  ok -> "🔑🔑🔑🔑🔑🔑🔑🔑🔑🔑"
+password 12345678901             password must be text
+room     "  Garden   club "      ok -> "Garden club"
+room     "line\nbreak"           ok -> "line break"
+room     ""                      room name must be 1 to 40 characters
+room     "   "                   room name must be 1 to 40 characters
+room     xxxxxxxx…(41 chars)     room name must be 1 to 40 characters
+room     "nul\u0000"             room name contains invalid characters
+room     "bell\u0007"            room name contains invalid characters
+room     {}                      room name must be text
+message  " hello\nworld "        ok -> "hello\nworld"
+message  ""                      message must be 1 to 2000 characters
+message  "  "                    message must be 1 to 2000 characters
+message  xxxxxxxx…(2001 chars)   message must be 1 to 2000 characters
+message  "bell\u0007"            message contains invalid characters
+message  5                       message must be text
+message  ["a"]                   message must be text

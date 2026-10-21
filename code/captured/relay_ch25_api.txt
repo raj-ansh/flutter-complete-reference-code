@@ -1,0 +1,8 @@
+sign in, right password         Ok(alice)
+sign in, wrong password         unauthorized: Wrong username or password.
+sign up, name taken             conflict: That username is taken.
+sign up, new name               Ok(newbie)
+server unreachable              network: Could not reach the server.
+server sends HTML, not JSON     bad_response: The server sent an unexpected answer.
+JSON of the wrong shape         bad_response: The server sent an unexpected answer.
+rate limited by the server      rate_limited: Too many attempts.

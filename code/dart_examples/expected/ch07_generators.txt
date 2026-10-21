@@ -1,0 +1,10 @@
+created, nothing produced yet
+  producing 1
+got 1
+  producing 2
+got 2
+take(2) of a fresh run:
+  producing 1
+  producing 2
+[1, 2]
+[4, 3, 2, 1]

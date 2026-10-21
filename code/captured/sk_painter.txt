@@ -1,0 +1,3 @@
+120 scenes (ready, mid-game and over, 40 seeds) drawn without error
+recording one mid-game frame takes about 178 microseconds on this computer
+(a 60 Hz frame has 16,667 microseconds in total; this measures recording the drawing commands only, not the work of the graphics hardware, and not on a phone)

@@ -1,0 +1,5 @@
+tables in the version 1 file:        [notes]
+tables after opening (version 2):  [appointments, contacts, notes, tasks]
+the old note:                       "Written in version 1"
+rows in the new tasks table:        0
+upgraded schema equals a fresh install: true

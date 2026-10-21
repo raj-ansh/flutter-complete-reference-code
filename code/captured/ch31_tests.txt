@@ -1,0 +1,14 @@
+PASS the careless button fails the tap-target and label guidelines
+PASS the repaired button passes both
+PASS the rating bar tells a screen reader its label, value and actions
+PASS the two extremes and a known grey
+PASS order of the two colors does not matter
+PASS report the generated color schemes
+PASS a phone-width window gets a bottom bar
+PASS a tablet-width window gets a rail
+PASS the breakpoint itself counts as wide
+PASS selection survives a change of layout
+PASS the fragile row overflows at 2x text, the robust row does not
+PASS Ctrl+N adds an item and Delete removes the last one
+
+All tests passed: 12 of 12

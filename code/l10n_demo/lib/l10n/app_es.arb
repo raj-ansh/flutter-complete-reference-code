@@ -1,0 +1,7 @@
+{
+  "@@locale": "es",
+  "appTitle": "Tareas",
+  "taskCount": "{count, plural, =0{Sin tareas} =1{Una tarea} other{{count} tareas}}",
+  "dueOn": "Vence el {date}",
+  "addTask": "Añadir tarea"
+}

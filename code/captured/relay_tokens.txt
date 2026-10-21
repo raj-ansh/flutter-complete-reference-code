@@ -1,0 +1,8 @@
+valid token                        connected
+no token                           refused: unauthorized
+made-up token                      refused: unauthorized
+token of a huge size               refused: unauthorized
+token that is not text             refused: unauthorized
+same token after logout            refused: unauthorized
+fresh token                        connected
+fresh token after 8 days (limit is 7) refused: unauthorized

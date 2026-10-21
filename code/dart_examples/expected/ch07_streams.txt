@@ -1,0 +1,15 @@
+received 1
+received 2
+received 3
+[20, 40, 60, 80]
+listen got 1
+listen got 2
+stream done
+message: hello
+message: world
+second listen: Stream has already been listened to.
+first listener got 1
+A saw hi
+B saw hi
+value 1
+stream failed: boom

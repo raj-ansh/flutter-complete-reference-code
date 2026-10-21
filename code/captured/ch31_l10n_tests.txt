@@ -1,0 +1,6 @@
+PASS plural forms: English, Spanish, Arabic
+PASS the same date is formatted by locale
+PASS Arabic lays the screen out right to left
+PASS every language provides every message
+
+All tests passed: 4 of 4

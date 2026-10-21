@@ -1,0 +1,7 @@
+server answers 503, 503, then 200:
+  attempt 1 failed with ServerFailure; waiting 500 ms
+  attempt 2 failed with ServerFailure; waiting 1000 ms
+  final result: ApiOk(2 plants)
+
+404 (not retryable):    1 call(s), NotFound retryable=false
+503 forever (4 tries):  4 call(s), ServerFailure(503) retryable=true

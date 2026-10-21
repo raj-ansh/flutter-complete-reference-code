@@ -1,0 +1,5 @@
+name: dart_examples
+description: "Verified Dart examples for the book Flutter - The Complete Reference."
+publish_to: none
+environment:
+  sdk: ^3.13.5

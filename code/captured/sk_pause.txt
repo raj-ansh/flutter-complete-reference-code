@@ -1,0 +1,3 @@
+game time before pausing:                0.50 s
+after 10 s of frames while paused:       0.50 s (unchanged)
+after resuming and one 5-second frame:   0.58 s

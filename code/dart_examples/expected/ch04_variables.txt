@@ -1,0 +1,11 @@
+Lisbon, Portugal (2026): 545796 people, 100.05 km2
+ratio=0.75 ready=true capital=true
+String
+int
+double
+bool
+startedAt is a DateTime
+Hello, retries=3, doubled=6
+counter=2 label=fixed
+int
+String

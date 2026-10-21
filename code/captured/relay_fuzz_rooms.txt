@@ -1,0 +1,12 @@
+30,000 random actions by 3 users on 2179 rooms (seed 777), half with garbage ids and arguments
+exceptions thrown: 0; invariants checked at the end: owner is a member, nobody is member and invited, sequence numbers grow
+create    accepted   2179   refused    832
+list      accepted   3049   refused      0
+join      accepted    845   refused   2223
+leave     accepted     57   refused   2853
+invite    accepted    133   refused   2807
+kick      accepted      9   refused   3023
+close     accepted    417   refused   2687
+send      accepted    359   refused   2576
+history   accepted    457   refused   2526
+members   accepted    422   refused   2546

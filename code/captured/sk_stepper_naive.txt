@@ -1,0 +1,5 @@
+how far the city scrolls in 10 real seconds
+frames per second   one step per frame   fixed time step
+30                  600                   1200
+60                  1200                  1200
+120                 2480                  1200

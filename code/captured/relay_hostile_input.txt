@@ -1,0 +1,9 @@
+room:send with null                       -> not_found: No such room.
+room:send with a string                   -> not_found: No such room.
+room:send with an array                   -> not_found: No such room.
+room:send with a number                   -> not_found: No such room.
+room:send with an object with wrong types -> not_found: No such room.
+room:send with an unknown room id         -> not_found: No such room.
+room:send with text over the limit        -> invalid: message must be 1 to 2000 characters
+emits without a callback, with no payload, and with an unknown event name: server still answers
+a 40,000-character message: connection closed by the server (transport close)

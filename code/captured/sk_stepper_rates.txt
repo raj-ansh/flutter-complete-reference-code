@@ -1,0 +1,8 @@
+10 seconds of real time, frames at different rates
+frames per second   frames   simulation steps   steps per second
+24                  240      599                59.9
+30                  300      600                60.0
+60                  600      600                60.0
+90                  900      600                60.0
+120                 1200     600                60.0
+144                 1440     599                59.9

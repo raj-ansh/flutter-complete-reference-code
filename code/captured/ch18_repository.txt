@@ -1,0 +1,8 @@
+load() twice, service fetches:      1
+load(refresh: true), fetches:       2
+first load:                         Ok(Milk, Bread)
+add("Eggs"):                        Ok(Milk, Bread, Eggs)
+toggle(0) while service is down:    Err("Could not save the change: Bad state: The pantry service is unreachable")
+load() afterwards (cache intact):   Ok(Milk, Bread, Eggs)
+load() on a fresh repo, service down: Err("Could not load the list: Bad state: The pantry service is unreachable")
+toggle(0) before any load:          Err("The list is not loaded yet")

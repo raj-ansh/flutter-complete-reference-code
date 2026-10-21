@@ -1,0 +1,7 @@
+today is 2026-10-16
+due yesterday        -> Overdue
+due today            -> Today
+due tomorrow         -> Upcoming
+no due date          -> No date
+done, was overdue    -> Done
+done, no date        -> Done

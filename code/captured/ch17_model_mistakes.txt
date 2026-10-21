@@ -1,0 +1,5 @@
+ForgetfulPantryModel.add("Milk") without notifyListeners:
+  model holds 1 item(s); screen still shows "items: 0"
+
+PantryModel.items.add(...) on the read-only view:
+  UnsupportedError: Unsupported operation: Cannot add to an unmodifiable list

@@ -1,0 +1,4 @@
+$ ls -l build/symbols
+2618536 app.android-arm.symbols
+3052208 app.android-arm64.symbols
+3052592 app.android-x64.symbols

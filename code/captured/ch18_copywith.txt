@@ -1,0 +1,5 @@
+start:                      due = 2026-12-01 00:00:00.000
+copyWithSimple(due: null):  due = 2026-12-01 00:00:00.000
+copyWith(due: () => null):  due = null
+copyWith(title: "..."):     due = 2026-12-01 00:00:00.000
+withoutDue():               due = null

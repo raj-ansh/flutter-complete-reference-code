@@ -1,0 +1,2 @@
+scrollable extent before: 520 px (20 rows)
+after reaching the end:   1640 px (40 rows)
