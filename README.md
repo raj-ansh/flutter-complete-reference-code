@@ -59,7 +59,7 @@ The tests, builds and outputs were run on one Windows computer. Nothing was run 
 
 ## License
 
-**To be added by the author.** Until a license file is added, all rights are reserved. See the book's copyright page.
+The code in this repository is released under the MIT License (see `LICENSE`). The text of the book is not part of this license and remains under the book's copyright.
 
 ## Reporting a problem
 
